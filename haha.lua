@@ -48,7 +48,7 @@ local function loadMainScript()
     
     -- Coba load script utama dari GitHub
     local success, result = pcall(function()
-        return HttpService:GetAsync("https://raw.githubusercontent.com/Biontoken/Map-gunung/refs/heads/main/chose.txt")
+        return HttpService:GetAsync("https://raw.githubusercontent.com/Biontoken/Map-gunung/refs/heads/main/choose.txt")
     end)
     
     if success and result then
